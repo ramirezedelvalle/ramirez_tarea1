@@ -83,3 +83,65 @@ array.forEach(function(element) {
   console.log(element);
 });
 
+//Ejemplos de métodos de cadena (String methods):
+
+// Ejemplo de toUpperCase() y toLowerCase()
+let mensaje = "Hola Mundo";
+console.log(mensaje.toUpperCase()); // Resultado: HOLA MUNDO
+console.log(mensaje.toLowerCase()); // Resultado: hola mundo
+
+// Ejemplo de length()
+let texto = "JavaScript";
+console.log(texto.length); // Resultado: 10
+
+// Ejemplo de charAt()
+let palabra = "Hola";
+console.log(palabra.charAt(2)); // Resultado: l
+
+// Ejemplo de substring()
+let frase = "Programación en JavaScript";
+console.log(frase.substring(13, 23)); // Resultado: JavaScript
+
+//Ejemplos de métodos de arreglo (Array methods):
+
+// Ejemplo de push() y pop()
+let numeros = [1, 2, 3];
+numeros.push(4);
+console.log(numeros); // Resultado: [1, 2, 3, 4]
+numeros.pop();
+console.log(numeros); // Resultado: [1, 2, 3]
+
+// Ejemplo de shift() y unshift()
+let frutas = ["manzana", "naranja", "banana"];
+frutas.shift();
+console.log(frutas); // Resultado: ["naranja", "banana"]
+frutas.unshift("pera");
+console.log(frutas); // Resultado: ["pera", "naranja", "banana"]
+
+// Ejemplo de length()
+let animales = ["gato", "perro", "conejo", "elefante"];
+console.log(animales.length); // Resultado: 4
+
+// Ejemplo de forEach()
+let numeros2 = [1, 2, 3, 4, 5];
+numeros.forEach(function(numero) {
+  console.log(numero);
+});
+// Resultado:
+// 1
+// 2
+// 3
+// 4
+// 5
+
+//Ejemplos de métodos matemáticos (Math methods):
+
+// Ejemplo de Math.random()
+let numeroAleatorio = Math.random();
+console.log(numeroAleatorio); // Resultado: un número aleatorio entre 0 y 1
+
+// Ejemplo de Math.floor()
+let numeroDecimal = 3.75;
+let numeroEntero = Math.floor(numeroDecimal);
+console.log(numeroEntero); // Resultado: 3
+
